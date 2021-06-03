@@ -13,6 +13,7 @@ function MainSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          path='/projects'
         >
           Hire Me
         </Button>
