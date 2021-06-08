@@ -12,7 +12,7 @@ function MainSection() {
         <Button
           className='btns'
           buttonStyle='btn--outline'
-          buttonSize='btn--large'
+          buttonSize='btn--medium'
         >
           Hire Me
         </Button>

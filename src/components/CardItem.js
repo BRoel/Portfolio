@@ -13,8 +13,6 @@ function CardItem(props) {
                     <div className='cards__item__info'>
                         <h5 className='cards__item__text'>{props.text}</h5>
                     </div>
-                    <a href={props.externalPath} target="_blank" rel="noopener noreferrer">
-                    <button onClick={props.externalPath}>{props.buttonText}</button></a>
                 </Link>
             </li>
         </>

@@ -8,8 +8,8 @@ const SIZES = ['btn--medium', 'btn--large'];
 export function Button({
     children, 
     type, 
-    onCLick, 
-    buttonStyle, 
+    onCLick,
+    buttonStyle,
     buttonSize
 }) {
  

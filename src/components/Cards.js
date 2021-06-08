@@ -14,6 +14,7 @@ function Cards() {
                             text="Reddit Feed Clone Application"
                             label="Feed-it"
                             path='/projects'
+                            buttonText='Go to Feed-it GitHub'
                         />
                         <CardItem
                             src='images/Videogame.jpeg'
