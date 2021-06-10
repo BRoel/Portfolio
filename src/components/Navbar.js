@@ -40,7 +40,6 @@ function Navbar() {
                         <li className='nav-item'>
                             <a
                                 className='nav-links'
-                                class='social-icon-link LinkedIn'
                                 href='https://www.linkedin.com/in/brennan-roel/'
                                 target='_blank'
                                 rel="noreferrer"
