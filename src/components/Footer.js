@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import './Footer.css'
 
 function Footer() {
@@ -9,9 +8,30 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>Projects</h2>
-                        <Link to='/projects'>Feed-it</Link>
-                        <Link to='/projects'>Upcoming</Link>
-                        <Link to='/projects'>Calorie Counter</Link>
+                        <a
+                            href='https://github.com/BRoel/feed-it_frontend'
+                            target='_blank'
+                            rel="noreferrer"
+                            aria-label='LinkedIn'
+                        >
+                            Feed-it
+                        </a>
+                        <a
+                            href='https://github.com/BRoel/upcoming_frontend'
+                            target='_blank'
+                            rel="noreferrer"
+                            aria-label='LinkedIn'
+                        >
+                            Upcoming
+                        </a>
+                        <a
+                            href='https://github.com/BRoel/Counter'
+                            target='_blank'
+                            rel="noreferrer"
+                            aria-label='LinkedIn'
+                        >
+                            Calorie Counter
+                        </a>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Contact Me</h2>
