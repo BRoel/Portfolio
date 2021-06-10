@@ -15,12 +15,23 @@ function Footer() {
                     </div>
                     <div class='footer-link-items'>
                         <h2>Contact Me</h2>
-                        <Link to='/connect'>Connect</Link>
+                        <div class='social-icons'>
+                            <a
+                                class='social-icon-link LinkedIn'
+                                href='https://www.linkedin.com/in/brennan-roel/'
+                                target='_blank'
+                                rel="noreferrer"
+                                aria-label='LinkedIn'
+                            >
+                                <i class='fab fa-linkedin' />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <small class='website-rights'>BR © 2021</small>
         </div>
     )
 }
 
-export default Footer
+export default Footer;
