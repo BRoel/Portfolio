@@ -38,9 +38,16 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/connect' className='nav-links' onClick={closeMobileMenu}>
-                                Connect
-                            </Link>
+                            <a
+                                className='nav-links'
+                                class='social-icon-link LinkedIn'
+                                href='https://www.linkedin.com/in/brennan-roel/'
+                                target='_blank'
+                                rel="noreferrer"
+                                aria-label='LinkedIn'
+                            >
+                                <i class='fab fa-linkedin' />
+                            </a>
                         </li>
                     </ul>
                 </div>
