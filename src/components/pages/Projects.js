@@ -18,7 +18,7 @@ function Projects() {
                                 path='/feedit'
                             />
                             <form action='https://github.com/BRoel/feed-it_frontend' target="_blank">
-                                <button type="submit" value="Go to GitHub" class="btn btn-dark" >Feed-it's GitHub</button>
+                                <button type="submit" value="Go to GitHub" class="glow-on-hover" >Feed-it's GitHub</button>
                             </form>
                         </div>
                         <div className='cards__container'>
@@ -29,7 +29,7 @@ function Projects() {
                                 path='/upcoming'
                             />
                             <form action='https://github.com/BRoel/upcoming_frontend' target="_blank">
-                                <button type="submit" value="Go to GitHub" class="btn btn-dark" >Upcoming's GitHub</button>
+                                <button type="submit" value="Go to GitHub" class="glow-on-hover" >Upcoming's GitHub</button>
                             </form>
                         </div>
                         <div className='cards__container'>
@@ -40,7 +40,7 @@ function Projects() {
                                 path='/caloriecounter'
                             />
                             <form action='https://github.com/BRoel/Counter' target="_blank">
-                                <button type="submit" value="Go to GitHub" class="btn btn-dark" >Calorie Counter's GitHub</button>
+                                <button type="submit" value="Go to GitHub" class="glow-on-hover" >Calorie Counter's GitHub</button>
                             </form>
                         </div>
                     </ul>

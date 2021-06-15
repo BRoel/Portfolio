@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import './Button.css';
 import './MainSection.css';
 
 function MainSection() {
@@ -9,13 +9,16 @@ function MainSection() {
       <video src='/videos/AdobeStock.mov' autoPlay loop muted />
       <h1>Brennan Roel's Portfolio</h1>
       <div className='main-btns'>
-        <Button
+        <form action='https://www.linkedin.com/in/brennan-roel/' target="_blank">
+          <button type="submit" value="Go to GitHub" class="glow-on-hover" >Hire Me</button>
+        </form>
+        {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           Hire Me
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

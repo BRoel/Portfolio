@@ -1,22 +1,17 @@
 import React from 'react'
 import '../../App.css'
-import Button from '../Button';
 import Footer from '../Footer'
 
 function Feedit() {
     return (
         <>
             <div className='main-container'>
-                <video src='/videos/AdobeStock.mov' autoPlay loop muted />
-                <h1>Brennan Roel's Portfolio</h1>
+                <video src='/videos/FeeditVid.mov' autoPlay loop muted />
+                <h1>Feed-it Project</h1>
                 <div className='main-btns'>
-                    <Button
-                    className='btns'
-                    buttonStyle='btn--outline'
-                    buttonSize='btn--large'
-                    >
-                    Hire Me
-                    </Button>
+                    <form action='https://www.linkedin.com/in/brennan-roel/' target="_blank">
+                        <button type="submit" value="Go to GitHub" class="glow-on-hover" >Hire Me</button>
+                    </form>
                 </div>
             </div>
             

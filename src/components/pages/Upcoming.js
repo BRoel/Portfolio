@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../App.css'
-import Button from '../Button';
 import Footer from '../Footer'
 
 function Upcoming() {
@@ -10,13 +9,9 @@ function Upcoming() {
                 <video src='/videos/UpcomingAppVid.mov' autoPlay loop muted />
                 <h1>Upcoming project</h1>
                 <div className='main-btns'>
-                    <Button
-                    className='btns'
-                    buttonStyle='btn--outline'
-                    buttonSize='btn--large'
-                    >
-                    Hire Me
-                    </Button>
+                    <form action='https://www.linkedin.com/in/brennan-roel/' target="_blank">
+                        <button type="submit" value="Go to GitHub" class="glow-on-hover" >Hire Me</button>
+                    </form>
                 </div>
             </div>
             <Footer/>
