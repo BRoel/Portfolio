@@ -5,6 +5,9 @@ import './App.css';
 import Home from './components/pages/Home'
 import Projects from './components/pages/Projects'
 import About from './components/pages/About'
+import Feedit from './components/pages/Feedit';
+import Upcoming from './components/pages/Upcoming';
+import CalorieCounter from './components/pages/CalorieCounter';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/projects' exact component={Projects} />
           <Route path='/about' exact component={About} />
+          <Route path='/feedit' exact component={Feedit} />
+          <Route path='/upcoming' exact component={Upcoming} />
+          <Route path='/caloriecounter' exact component={CalorieCounter} />
         </Switch>
       </Router>
     </>
