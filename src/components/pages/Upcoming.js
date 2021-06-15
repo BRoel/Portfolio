@@ -2,13 +2,13 @@ import React from 'react'
 import '../../App.css'
 import Footer from '../Footer'
 
-function Feedit() {
+function Upcoming() {
     return (
         <>
-            <h1>Feed-it</h1>
+            <h1>Upcoming</h1>
             <Footer/>
         </>
     );
 }
 
-export default Feedit
+export default Upcoming
