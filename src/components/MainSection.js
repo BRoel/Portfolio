@@ -1,12 +1,11 @@
 import React from 'react';
-import '../App.css';
 import './Button.css';
 import './MainSection.css';
 
 function MainSection() {
   return (
     <div className='main-container'>
-      <video src='/videos/AdobeStock.mov' autoPlay loop muted />
+      <video src='/videos/TechVid.mov' autoPlay loop muted />
       <h1>Brennan Roel's Portfolio</h1>
       <div className='main-btns'>
         <form action='https://www.linkedin.com/in/brennan-roel/' target="_blank">

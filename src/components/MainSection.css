@@ -5,6 +5,12 @@ video {
     position: fixed;
     z-index: -1;
 }
+
+img {
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+}
   
 .main-container {
     height: 100vh;
@@ -25,8 +31,10 @@ video {
 
 .main-container > p {
     margin-top: 8px;
+    width: 50%;
     color: #fff;
     font-size: 32px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
 }
