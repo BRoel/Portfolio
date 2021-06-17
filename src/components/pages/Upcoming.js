@@ -9,6 +9,16 @@ function Upcoming() {
                 <video src='/videos/AdobeStock.mov' autoPlay loop muted />
                 <h1>Upcoming Project</h1>
                 <p>Upcoming is an application used to add and remove your desired upcoming games to track. Uses a Rails API and JS frontend.</p>
+                <h3><u>Skills Displayed</u></h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>Ruby</li>
+                    <li>JSON</li>
+                    <li>Ruby on Rails</li>
+                    <li>SQL</li>
+                    <li>Database</li>
+                </ul>
                 <div className='main-btns'>
                     <form action='https://www.linkedin.com/in/brennan-roel/' target="_blank">
                         <button type="submit" value="Go to LinkedIn" class="glow-on-hover" >Hire Me</button>

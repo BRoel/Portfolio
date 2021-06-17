@@ -29,6 +29,11 @@ img {
     margin-top: -100px;
 }
 
+.main-container > h3 {
+    color: #fff;
+    margin-top: 8px;
+}
+
 .main-container > p {
     margin-top: 8px;
     width: 50%;
@@ -37,6 +42,14 @@ img {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
         'Lucida Sans', Arial, sans-serif;
+}
+
+.main-container > ul {
+    columns: 2;
+    column-gap: 5px;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    color: white;
 }
 
 .main-btns {
