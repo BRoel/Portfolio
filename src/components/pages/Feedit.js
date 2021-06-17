@@ -7,7 +7,7 @@ function Feedit() {
         <>
             <div className='main-container'>
                 <video src='/videos/AdobeStock.mov' autoPlay loop muted />
-                <h1>Feed-it Project</h1>
+                <h2>Feed-it Project</h2>
                 <p>Feed-it is a Reddit feed clone used to create posts and comment on those posts. Uses a Rails API and JS React-Redux frontend.</p>
                 <h3><u>Skills Displayed</u></h3>
                 <ul>
