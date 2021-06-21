@@ -19,11 +19,9 @@ function Upcoming() {
                     <li>SQL</li>
                     <li>Database</li>
                 </ul>
-                <div className='main-btns'>
-                    <form action='https://www.linkedin.com/in/brennan-roel/' target="_blank">
-                        <button type="submit" value="Go to LinkedIn" class="glow-on-hover" >Hire Me</button>
-                    </form>
-                </div>
+                <form action='https://github.com/BRoel/upcoming_frontend' target="_blank">
+                    <button type="submit" value="Go to GitHub" class="glow-on-hover" >Upcoming's GitHub</button>
+                </form>
             </div>
             <div className='pages-container'>
                 <iframe src='/videos/UpcomingVid.mp4' type='video/mp4' width="100%" height='800' title='CalorieCount Video' autoPlay='autoPlay'/>
