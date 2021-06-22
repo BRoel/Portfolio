@@ -74,7 +74,7 @@
 @media screen and (max-width: 768px) {
     .about-container > h1 {
         font-size: 35px;
-        margin-top: -20px;
+        margin-top: 0px;
     }
 
     .about-container > h3 {
@@ -83,7 +83,11 @@
     }
     
     .about-container > p {
-        font-size: 17px;
+        font-size: 15px;
+    }
+
+    .about-container > ul li {
+        font-size: 12px;
     }
     
 
