@@ -69,6 +69,15 @@ video {
         font-size: 70px;
         margin-top: -150px;
     }
+    .main-container > h3 {
+        font-size: 35px;
+        margin-top: 4px;
+    }
+
+    .main-container > p {
+        font-size: 20px;
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -77,8 +86,18 @@ video {
         margin-top: -100px;
     }
 
+    .main-container > h3 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
     .main-container > p {
         font-size: 20px;
+        width: 70%;
+    }
+
+    .main-container > ul li {
+        font-size: 15px;
     }
 
     .btn-mobile {
