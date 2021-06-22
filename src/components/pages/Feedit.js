@@ -26,8 +26,8 @@ function Feedit() {
                     <button type="submit" value="Go to GitHub" class="glow-on-hover" >Feed-it's GitHub</button>
                 </form>
             </div>
-            <div className='pages-container'>
-                <iframe src='/videos/FeeditVid.mp4' type='video/mp4' width="100%" height='800' title='CalorieCount Video' autoPlay='autoPlay'/>
+            <div id='video'>
+                <iframe src='/videos/FeeditVid.mp4' type='video/mp4' title='CalorieCount Video' autoPlay='autoPlay'/>
             </div>
             <Cards/>
             <Footer/>
