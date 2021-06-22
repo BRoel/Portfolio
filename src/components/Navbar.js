@@ -26,10 +26,15 @@ function Navbar() {
                                 Home
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item' class='dropdown'>
+                            <Link to='/projects' className='nav-links' onClick={closeMobileMenu} >
                                 Projects
                             </Link>
+                            <div class="dropdown-content">
+                            <Link to='/feedit' >Feed-it</Link>
+                            <Link to='/upcoming' >Upcoming</Link>
+                            <Link to='/caloriecounter' >Calorie Counter</Link>
+                            </div>
                         </li>
                         <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
