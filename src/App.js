@@ -8,11 +8,13 @@ import About from './components/pages/About'
 import Feedit from './components/pages/Feedit';
 import Upcoming from './components/pages/Upcoming';
 import CalorieCounter from './components/pages/CalorieCounter';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop/>
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
