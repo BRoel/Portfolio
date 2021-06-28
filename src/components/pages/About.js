@@ -10,6 +10,9 @@ function About() {
                 <h1>About Me</h1>
                 <p>Full-stack software developer with a passion for technical problem-solving.  Committed to writing clean code, debugging, and working to improve my knowledge at all times.  A strong team player and troubleshooter, I have a track record of 4 years leading successful sales campaigns in Healthcare services.  As a lifelong technophile, I have moved over into the coding space to find my true life’s purpose, bringing excitement and dedication to my work.
                 </p>
+                <div class='image-cropper'>
+                    <img src='/images/avatar.jpeg' alt='avatar' class='profile-pic'/>
+                </div>
                 <h3><u>Skills</u></h3>
                 <ul>
                     <li>JavaScript (ES6)</li>
