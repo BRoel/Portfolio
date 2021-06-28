@@ -15,7 +15,7 @@ function Navbar() {
             <nav className="navbar" >
                 <div className="navbar-container">
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        BR <i class="far fa-comment-dots"/>
+                        BR
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
