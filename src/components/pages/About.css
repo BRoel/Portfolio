@@ -11,16 +11,16 @@
 }
 
 .image-cropper {
-    height: 200px;
-    width: 200px;
+    min-height: 200px;
+    min-width: 200px;
     overflow: hidden;
     border-radius: 50%;
 }
 
 .profile-pic {
-  display: inline;
-  height: 200px;
-  width: 200px;
+    display: inline;
+    height: 200px;
+    width: 200px;
 }
 
 .about-container > h1 {
@@ -105,6 +105,28 @@
 
     .about-container > ul li {
         font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .about-container > h1 {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    .about-container > h3 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    
+    .about-container > p {
+        font-size: 16px;
+        width: 95%;
+    }
+
+    .about-container > ul li {
+        font-size: 14px;
     }
 
 }
