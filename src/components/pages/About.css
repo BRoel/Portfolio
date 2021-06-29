@@ -1,6 +1,6 @@
 .about-container {
     background-color: #53caee;
-    height: 100vh;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -11,30 +11,28 @@
 }
 
 .image-cropper {
-    width: 200px;
     height: 200px;
-    position: relative;
+    width: 200px;
     overflow: hidden;
     border-radius: 50%;
 }
 
 .profile-pic {
   display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
+  height: 200px;
+  width: 200px;
 }
 
 .about-container > h1 {
     color: #fff;
     font-size: 100px;
-    margin-top: -30px;
+    margin-top: 30px;
 }
 
 .about-container > h3 {
     color: #fff;
     font-size: 30px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .about-container > p {
@@ -63,10 +61,12 @@
     .about-container > h3 {
         font-size: 25px;
         margin-top: 4px;
+        margin-top: 10px;
     }
 
     .about-container > p {
         font-size: 20px;
+        width: 75%;
     }
 }
 
@@ -78,32 +78,33 @@
 
     .about-container > h3 {
         font-size: 25px;
-        margin-top: 4px;
+        margin-top: 10px;
     }
 
     .about-container > p {
         font-size: 20px;
+        width: 85%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .about-container > h1 {
-        font-size: 50px;
+        font-size: 60px;
         margin-top: 0px;
     }
 
     .about-container > h3 {
-        font-size: 20px;
-        margin-top: 0px;
+        font-size: 25px;
+        margin-top: 10px;
     }
     
     .about-container > p {
-        font-size: 15px;
+        font-size: 20px;
+        width: 90%;
     }
 
     .about-container > ul li {
-        font-size: 12px;
+        font-size: 15px;
     }
-    
 
 }
