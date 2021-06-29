@@ -11,13 +11,6 @@ function MainSection() {
         <form action='https://www.linkedin.com/in/brennan-roel/' target="_blank">
           <button type="submit" value="Go to GitHub" class="glow-on-hover" >Hire Me</button>
         </form>
-        {/* <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          Hire Me
-        </Button> */}
       </div>
     </div>
   );
