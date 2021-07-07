@@ -116,4 +116,9 @@ video {
         margin-top: -100px;
     }
 
+    .main-container > h3 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
 }
