@@ -6,7 +6,7 @@ function Feedit() {
     return (
         <>
             <div className='main-container'>
-                <video src='/videos/AdobeStock.mov' autoPlay loop muted />
+                <video src='/videos/AdobeStock.mov' autoPlay loop muted>This content is not supported</video>
                 <h1>Feed-it Project</h1>
                 <p>Feed-it is a Reddit feed clone used to create posts and comment on those posts. Uses a Rails API and JS React-Redux frontend.</p>
                 <h3><u>Skills Displayed</u></h3>

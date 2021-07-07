@@ -7,7 +7,7 @@ function CalorieCounter() {
     return (
         <>
             <div className='main-container'>
-                <video src='/videos/AdobeStock.mov' autoPlay loop muted />
+                <video src='/videos/AdobeStock.mov' autoPlay loop muted>This content is not supported</video>
                 <h1>Calorie Counter Project</h1>
                 <p>Calorie Counter is a CRUD app for keeping track of your daily caloric intake, along with type of foods.  Calorie Counter was created using Rails and the Sinatra framework</p>
                 <h3><u>Skills Displayed</u></h3>

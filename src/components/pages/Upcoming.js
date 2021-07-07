@@ -6,7 +6,7 @@ function Upcoming() {
     return (
         <>
             <div className='main-container'>
-                <video src='/videos/AdobeStock.mov' autoPlay loop muted />
+                <video src='/videos/AdobeStock.mov' autoPlay loop muted>This content is not supported</video>
                 <h1>Upcoming Project</h1>
                 <p>Upcoming is an application used to add and remove your desired upcoming games to track. Uses a Rails API and JS frontend.</p>
                 <h3><u>Skills Displayed</u></h3>
